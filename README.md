@@ -1,0 +1,54 @@
+    ĐÂY LÀ CHATBOT AI ĐƯỢC TẠO RA NHẰM VỚI MỤC ĐÍCH THAY THẾ NHỮNG HOẠT ĐỘNG THỦ CÔNG TĂNG NĂNG SUẤT LÀM VIỆC CỦA BẠN.
+
+
+Hệ thống sẽ yêu cầu bạn phải có Microsoft C++ Build Tools (nếu chưa có hãy cài đặt từ trang chủ của Microsoft)
+   
+    Hãy Vào link: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+
+    🔧 Trong phần cài đặt:
+
+        Tick "Desktop development with C++"
+
+        Và tick thêm: "C++ CMake tools for Windows" (nếu có)
+  
+B1: Cài đặt môi trường ảo và cài đặt các thư viện cần thiết
+    * Tạo môi trường ảo
+    ```bash
+      python -m venv venv
+      ```
+B2 : Kích hoạt môi trường ảo
+    ```bash
+      source venv/bin/activate
+      ```
+B3: Cài đặt các thư viện cần thiết
+    ```bash
+      pip install -r requirements.txt
+      ```
+B4: Chạy mã
+    ```bash
+      python main.py
+     ```
+Hoặc bạn có thể chạy bằng dockerfile
+    ```bash
+      docker build -t my-chatbot .
+      docker run -it --rm my-chatbot
+      ```    
+Giao diện chính của chatbot sẽ được mở trong trình duyệt web của bạn. http://localhost:9200
+
+
+    * Hãy đảm bảo rằng bạn đã cài đặt tất cả các thư viện cần thiết trước khi chạy mã này.
+    * Để cài đặt các thư viện cần thiết, hãy chạy lệnh sau trong terminal của bạn:
+      ```bash
+      pip install -r requirements.txt
+      ```
+    * Nếu bạn chưa có thư viện `llama-cpp-python`, hãy cài đặt nó bằng lệnh sau:
+      ```bash
+      pip install llama-cpp-python
+      ```
+    * Or nếu bạn muốn cài đặt từ mã nguồn, hãy làm theo hướng dẫn trong [tài liệu chính thức]
+    * Nếu bạn muốn sử dụng GPU, hãy đảm bảo rằng bạn đã cài đặt CUDA và cuDNN đúng cách.
+    * Nếu bạn gặp bất kỳ vấn đề nào trong quá trình cài đặt hoặc chạy mã, hãy kiểm tra lại các bước cài đặt và đảm bảo rằng bạn đã làm theo đúng hướng dẫn.
+    * Nếu bạn cần thêm thông tin hoặc hỗ trợ, hãy tham khảo tài liệu chính thức của thư viện hoặc tìm kiếm trên các diễn đàn hỗ trợ.
+
+
+  CHÚC BẠN THÀNH CÔNG VỚI CHATBOT AI NÀY! ( Code hơi bẩn và chưa hoàn thiện, mong bạn thông cảm!)  :)))))))))))  
