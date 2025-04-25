@@ -1,34 +1,34 @@
-    ĐÂY LÀ CHATBOT AI ĐƯỢC TẠO RA NHẰM VỚI MỤC ĐÍCH THAY THẾ NHỮNG HOẠT ĐỘNG THỦ CÔNG TĂNG NĂNG SUẤT LÀM VIỆC CỦA BẠN.
+ĐÂY LÀ CHATBOT AI ĐƯỢC TẠO RA NHẰM VỚI MỤC ĐÍCH THAY THẾ NHỮNG HOẠT ĐỘNG THỦ CÔNG TĂNG NĂNG SUẤT LÀM VIỆC CỦA BẠN.
 
 
 Hệ thống sẽ yêu cầu bạn phải có Microsoft C++ Build Tools (nếu chưa có hãy cài đặt từ trang chủ của Microsoft)
    
-    Hãy Vào link: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+Hãy Vào link: https://visualstudio.microsoft.com/visual-cpp-build-tools/
 
-    🔧 Trong phần cài đặt:
+🔧 Trong phần cài đặt:
 
-        Tick "Desktop development with C++"
+Tick "Desktop development with C++"
 
-        Và tick thêm: "C++ CMake tools for Windows" (nếu có)
+ Và tick thêm: "C++ CMake tools for Windows" (nếu có)
   
-B1: Cài đặt môi trường ảo và cài đặt các thư viện cần thiết
+- B1: Cài đặt môi trường ảo và cài đặt các thư viện cần thiết
     * Tạo môi trường ảo
     ```bash
       python -m venv venv
       ```
-B2 : Kích hoạt môi trường ảo
+- B2 : Kích hoạt môi trường ảo
     ```bash
       source venv/bin/activate
       ```
-B3: Cài đặt các thư viện cần thiết
+- B3: Cài đặt các thư viện cần thiết
     ```bash
       pip install -r requirements.txt
       ```
-B4: Chạy mã
+- B4: Chạy mã
     ```bash
       python main.py
      ```
-Hoặc bạn có thể chạy bằng dockerfile
+- Hoặc bạn có thể chạy bằng dockerfile
     ```bash
       docker build -t my-chatbot .
       docker run -it --rm my-chatbot
@@ -36,7 +36,7 @@ Hoặc bạn có thể chạy bằng dockerfile
 Giao diện chính của chatbot sẽ được mở trong trình duyệt web của bạn. http://localhost:9200
 
 
-    * Hãy đảm bảo rằng bạn đã cài đặt tất cả các thư viện cần thiết trước khi chạy mã này.
+* Hãy đảm bảo rằng bạn đã cài đặt tất cả các thư viện cần thiết trước khi chạy mã này.
     * Để cài đặt các thư viện cần thiết, hãy chạy lệnh sau trong terminal của bạn:
       ```bash
       pip install -r requirements.txt
