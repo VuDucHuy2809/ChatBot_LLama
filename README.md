@@ -51,4 +51,4 @@ Giao diện chính của chatbot sẽ được mở trong trình duyệt web c�
     * Nếu bạn cần thêm thông tin hoặc hỗ trợ, hãy tham khảo tài liệu chính thức của thư viện hoặc tìm kiếm trên các diễn đàn hỗ trợ.
 
 
-  CHÚC BẠN THÀNH CÔNG VỚI CHATBOT AI NÀY! ( Code hơi bẩn và chưa hoàn thiện, mong bạn thông cảm!)  :)))))))))))  
+  CHÚC BẠN THÀNH CÔNG VỚI CHATBOT AI NÀY! ( Code hơi bẩn và chưa hoàn thiện, mong bạn thông cảm!) chứ toaiii cũng đau đầu lắm  :)))))))))))  
